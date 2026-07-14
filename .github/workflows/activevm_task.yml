@@ -1,9 +1,6 @@
 name: Activevm-Task
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '12 18 * * *'
-
 permissions:
   actions: write
   contents: read
